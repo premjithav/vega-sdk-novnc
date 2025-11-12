@@ -4,8 +4,8 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # --- System + GUI/VNC + build deps ---
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    git build-essential autoconf automake libtool m4 \
+RUN apt update && apt install -y --no-install-recommends \
+    git build-essential autoconf automake libtool m4 minicom \
     tcl tcl-dev tk tk-dev libcairo2-dev libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev \
     libx11-dev libxext-dev libxrender-dev libxpm-dev libxaw7-dev libfontconfig1-dev \
     libreadline-dev libncurses-dev flex bison gawk tcsh \
