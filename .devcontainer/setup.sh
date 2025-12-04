@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DESKTOP="/workspaces"
+DESKTOP="/home/vscode/Desktop"
 URL_TOOLS="https://gitlab+deploy-token-209821:3sXfp9wcBqiFjAgYbP-e@gitlab.com/cdac-vega/vega-tools-rv64"
 URL_SDK="https://gitlab+deploy-token-209821:3sXfp9wcBqiFjAgYbP-e@gitlab.com/cdac-vega/vega-sdk"
 
@@ -26,4 +26,6 @@ git checkout aries
 cd ../
 
 chown -R vscode:vscode "$DESKTOP"
+
+ln -s /home/vscode/Desktop /workspaces/vega-sdk-novnc/Desktop
 echo "[ OK ] VEGA Tools ready."
