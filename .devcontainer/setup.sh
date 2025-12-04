@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DESKTOP="/home/vscode/Desktop"
+DESKTOP="/workspaces"
 URL_TOOLS="https://gitlab+deploy-token-209821:3sXfp9wcBqiFjAgYbP-e@gitlab.com/cdac-vega/vega-tools-rv64"
 URL_SDK="https://gitlab+deploy-token-209821:3sXfp9wcBqiFjAgYbP-e@gitlab.com/cdac-vega/vega-sdk"
 
