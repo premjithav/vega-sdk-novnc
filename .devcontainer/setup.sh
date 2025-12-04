@@ -28,4 +28,5 @@ cd ../
 chown -R vscode:vscode "$DESKTOP"
 
 ln -s /home/vscode/Desktop /workspaces/vega-sdk-novnc/Desktop
+echo "Hello" > /workspaces/vega-sdk-novnc/hello.txt
 echo "[ OK ] VEGA Tools ready."
