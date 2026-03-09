@@ -274,7 +274,7 @@
 		    "name": "VEGA ARIES Boards",
 		    "version": "1.0.9",
 		    "url": "https://gitlab.com/riscv-vega/vega-bsp/-/archive/c46afa420106ce2a53f5bc4561ecc0d94e75019a/vega-bsp-c46afa420106ce2a53f5bc4561ecc0d94e75019a.tar.bz2",
-			"checksum": "SHA-256:97dd0dec5d3fd6975117d42860e1050210e19f0793f52fb59aa61fbd7bb243f9 ",
+			"checksum": "SHA-256:97dd0dec5d3fd6975117d42860e1050210e19f0793f52fb59aa61fbd7bb243f9",
 		    "archiveFileName": "vega-bsp-c46afa420106ce2a53f5bc4561ecc0d94e75019a.tar.bz2",
 		    "size": "430290",
 		    "architecture": "riscv",
